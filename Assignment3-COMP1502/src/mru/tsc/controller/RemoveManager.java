@@ -123,7 +123,7 @@ public class RemoveManager {
 		}
 	}
 	/**
-	 * this is the eventhandler for the remove toy button, it will take the choice from the listview and remove the item from the toys arraylist and save. 
+	 * this is the event handler for the remove toy button, it will take the choice from the listview and remove the item from the toys arraylist and save. 
 	 * @param event
 	 */
 	@FXML

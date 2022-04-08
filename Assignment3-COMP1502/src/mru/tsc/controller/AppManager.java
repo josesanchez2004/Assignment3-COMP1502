@@ -98,6 +98,8 @@ public class AppManager {
 		
 	}
 	public void Log() {
+		LogManager.getLogManager().reset();
+		
 		try {
 			FileHandler fh =  new FileHandler("doc/appLog",true);
 			fh.setLevel(Level.ALL);
