@@ -25,7 +25,11 @@ import mru.tsc.model.Figure;
 import mru.tsc.model.Puzzle;
 import mru.tsc.model.Toy;
 
-
+/**
+ *  this is the controller class for the RemoveMenu.fxml file. It contains the code that processes all the responses on this gui stage. 
+ * @author Jose Sanchez
+ *
+ */
 public class RemoveManager {
 	private final String FILE_PATH = "res/Toys.txt";
 	private Stage stage;
@@ -53,7 +57,9 @@ public class RemoveManager {
 	private Button searchButton;
 	
 	AppManager app;
-
+	/**
+	 * this is the constructor class for this class. it loads the data, and loads the arraylists with new references. 
+	 */
 	public RemoveManager() {
 		app=new AppManager();
 		app.toys = new ArrayList<Toy>();
@@ -64,7 +70,10 @@ public class RemoveManager {
 		app.LOGR.info("Opened Remove Toy Page");
 		
 	}
-	
+	/**
+	 * event handler for home button, upon pressing it, it will take you to home Page. 
+	 * @param event
+	 */
 	@FXML
 	void homeButtonListener(ActionEvent event) {
 		try {
@@ -78,7 +87,10 @@ public class RemoveManager {
 			e.printStackTrace();
 		}
 	}
-
+	/**
+	 *  event handler for add button, upon pressing it, it will take you to add Toy page.
+	 * @param event
+	 */
 	@FXML
 	void addButtonListener(ActionEvent event) {
 		try {
@@ -93,6 +105,10 @@ public class RemoveManager {
 		}
 	}
 	
+	/**
+	 * event handler for remove button, upon pressing it, it will take you to the remove Toy page. 
+	 * @param event
+	 */
 	@FXML
 	void removeButtonListener(ActionEvent event) {
 		try {
@@ -106,7 +122,10 @@ public class RemoveManager {
 			e.printStackTrace();
 		}
 	}
-	
+	/**
+	 * this is the eventhandler for the remove toy button, it will take the choice from the listview and remove the item from the toys arraylist and save. 
+	 * @param event
+	 */
 	@FXML
 	void removeToyListener(ActionEvent event) {
 		Toy t = text.getSelectionModel().getSelectedItem();
@@ -115,6 +134,10 @@ public class RemoveManager {
 		text.getItems().removeAll(app.list);
 		app.LOGR.info(t.getName()+" has been removed..");
 	}
+	/**
+	 * this is the event handler for the search button, it will search the toy by serial number and display it to the user in the listview. 
+	 * @param event
+	 */
 	@FXML
 	void searchButtonListener(ActionEvent event) {
 		app.LOGR.info("Toy has been searched using Serial Number...");
@@ -128,7 +151,10 @@ public class RemoveManager {
 		app.names2.clear();
 		
 	}
-	
+	/**
+	 * removeToy takes in a Toy parameter and removes it from the toys arraylist. 
+	 * @param t
+	 */
 	private void removeToy(Toy t) {
 			app.toys.remove(t);
 	}

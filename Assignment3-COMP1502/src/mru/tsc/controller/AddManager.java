@@ -24,7 +24,11 @@ import mru.tsc.model.Figure;
 import mru.tsc.model.Puzzle;
 import mru.tsc.model.Toy;
 
-
+/**
+ *  this is the controller class for the addMenu.fxml file. It contains the code that processes all the responses on this gui stage. 
+ * @author Jose Sanchez
+ *
+ */
 public class AddManager {
 	private Stage stage;
 	private Scene scene;
@@ -77,7 +81,9 @@ public class AddManager {
 	
 	private String categoryText;
 	AppManager app;
-	
+	/**
+	 * this is basically the constructor class for AddManager. Instanitates the arraylists, the object reference to AppManager, and the LOG. 
+	 */
 	@FXML
 	private void initialize() {
 		app=new AppManager();
@@ -87,6 +93,10 @@ public class AddManager {
 		app.Log();
 		app.LOGR.info("Opened Add Toy Page");
 	}
+	/**
+	 * event handler for home button, upon pressing it, it will take you to home Page. 
+	 * @param event
+	 */
 	@FXML
 	void homeButtonListener(ActionEvent event) {
 		try {
@@ -100,7 +110,10 @@ public class AddManager {
 			e.printStackTrace();
 		}
 	}
-
+	/**
+	 *  event handler for add button, upon pressing it, it will take you to add Toy page.
+	 * @param event
+	 */
 	@FXML
 	void addButtonListener(ActionEvent event) {
 		try {
@@ -115,6 +128,10 @@ public class AddManager {
 		}
 	}
 	
+	/**
+	 * event handler for remove button, upon pressing it, it will take you to the remove Toy page. 
+	 * @param event
+	 */
 	@FXML
 	void removeButtonListener(ActionEvent event) {
 		try {
@@ -128,7 +145,10 @@ public class AddManager {
 			e.printStackTrace();
 		}
 	}
-	
+	/**
+	 * this is the event handler for the saveButton. It will add a toy to the Toys.txt file. 
+	 * @param event
+	 */
 	@FXML
 	void saveButtonListener(ActionEvent event) {
 		if(event.getSource().equals(saveButton)) {
@@ -186,6 +206,14 @@ public class AddManager {
 		app.save();
 	}
 	
+	
+	/**
+	 * isValid is an overloaded method that takes in 2 integers, min and max. If the min is greater then the max, then a minMaxPlayerException will be thrown. 
+	 * @param min
+	 * @param max
+	 * @return
+	 * @throws minMaxPlayerException
+	 */
 	private boolean isValid(int min, int max) throws minMaxPlayerException {
 		if(min>max) {
 			throw new minMaxPlayerException("The minimum number of players is greater than the maximum number amount. ");
@@ -205,6 +233,9 @@ public class AddManager {
 		return true;
 	}
 	
+	/**
+	 * this is the event handler for the clear button, it will clear all the textfields for the user. 
+	 */
 	@FXML
 	void clearButtonListener() {
 		serialNumber.setText("");

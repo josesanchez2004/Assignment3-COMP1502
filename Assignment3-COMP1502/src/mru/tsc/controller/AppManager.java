@@ -27,6 +27,11 @@ import mru.tsc.model.Puzzle;
 import mru.tsc.model.Toy;
 import javafx.scene.Node;
 import java.util.logging.*;
+/**
+ *  this is the controller class for the Home.fxml file. It contains the code that processes all the responses on this gui stage. 
+ * @author Jose Sanchez
+ *
+ */
 public class AppManager {
 	private final String FILE_PATH = "res/Toys.txt";
 	 public ArrayList <Toy> toys;
@@ -105,6 +110,10 @@ public class AppManager {
 		}
 	}
 	
+	/**
+	 * event handler for home button, upon pressing it, it will take you to home Page. 
+	 * @param event
+	 */
 	@FXML
 	void homeButtonListener(ActionEvent event) {
 		try {
@@ -118,7 +127,11 @@ public class AppManager {
 			e.printStackTrace();
 		}
 	}
-
+	
+	/**
+	 *  event handler for add button, upon pressing it, it will take you to add Toy page.
+	 * @param event
+	 */
 	@FXML
 	void addButtonListener(ActionEvent event) {
 		try {
@@ -132,7 +145,10 @@ public class AppManager {
 			e.printStackTrace();
 		}
 	}
-	
+	/**
+	 * event handler for remove button, upon pressing it, it will take you to the remove Toy page. 
+	 * @param event
+	 */
 	@FXML
 	void removeButtonListener(ActionEvent event) {
 		try {
@@ -146,6 +162,10 @@ public class AppManager {
 			e.printStackTrace();
 		}
 	}
+	/**
+	 * this is the event handler for the search button, it will search for the toy/toys depending on what radio box is selected. It will then list them in the list view. 
+	 * @param event
+	 */
 	@FXML
 	void searchButtonListener(ActionEvent event) {
 		
@@ -175,6 +195,10 @@ public class AppManager {
 			
 		}
 	}
+	/**
+	 * this is the event handler for the buy button, it will subtract the availability count by 1 when the item is purchased then save it. 
+	 * @param event
+	 */
 	@FXML
 	void buyButtonListener(ActionEvent event) {
 		Toy toy=listView.getSelectionModel().getSelectedItem();
@@ -183,6 +207,10 @@ public class AppManager {
 		LOGR.info(toy.getName()+" Has been Purchased. ");
 		
 	}
+	/**
+	 * this is the event handler for the clear button, it will clear all the fields for the user. including the listview and the arrayLists. 
+	 * @param event
+	 */
 	@FXML
 	void clearButtonListener(ActionEvent event) {
 		listView.getItems().removeAll(list);
@@ -199,6 +227,10 @@ public class AppManager {
 		
 		
 	}
+	/**
+	 * searchType takes in the parameter name, it will then use that name to decipher the type of Toy the user wants to find. It will then list all the Toys under the Toys categories(BoardGame,Animal,Figure,Puzzle).
+	 * @param name
+	 */
 	private void searchType(String name) {
 	
 		for(Toy t: toys) {
@@ -227,6 +259,11 @@ public class AppManager {
 			}
 		}
 	}
+	
+	/**
+	 * searchToyName takes in a parameter of name, and any Toy's name that contains that parameters char sequence will be printed out on the console. 
+	 * @param name
+	 */
 	private void searchToyName(String name) {
 		for(Toy t: toys) {
 			if(t.getName().toLowerCase().contains(name.toLowerCase())) {
@@ -235,6 +272,10 @@ public class AppManager {
 		}
 		
 	}
+	
+	/**
+	 * save, writes to the FILE_PATH and formats the Toys information in its proper Txt.file form. 
+	 */
 	public void save() {
 		File file= new File(FILE_PATH);
 		try {
