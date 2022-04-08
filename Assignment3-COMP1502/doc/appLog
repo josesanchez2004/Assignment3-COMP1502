@@ -1,0 +1,208 @@
+Apr. 07, 2022 5:37:06 P.M. mru.tsc.controller.AppManager initialize
+INFO: Opened Home Page
+Apr. 07, 2022 5:37:25 P.M. mru.tsc.controller.AppManager initialize
+INFO: Opened Home Page
+Apr. 07, 2022 5:37:28 P.M. mru.tsc.controller.AppManager initialize
+INFO: Opened Home Page
+Apr. 07, 2022 5:37:29 P.M. mru.tsc.controller.AppManager initialize
+INFO: Opened Home Page
+Apr. 07, 2022 5:41:38 P.M. mru.tsc.controller.AppManager initialize
+INFO: Opened Home Page
+Apr. 07, 2022 5:41:49 P.M. mru.tsc.controller.AppManager searchButtonListener
+INFO: Searched for Toy by type
+Apr. 07, 2022 5:41:56 P.M. mru.tsc.controller.AppManager buyButtonListener
+INFO: G.I. Joe Has been Purchased. 
+Apr. 07, 2022 5:42:18 P.M. mru.tsc.controller.AppManager clearButtonListener
+INFO: ListView has been cleared
+Apr. 07, 2022 5:42:31 P.M. mru.tsc.controller.AppManager searchButtonListener
+INFO: Searched for Toy by name
+Apr. 07, 2022 5:42:40 P.M. mru.tsc.controller.AppManager buyButtonListener
+INFO: StarCraft: The Board Game Has been Purchased. 
+Apr. 07, 2022 5:42:47 P.M. mru.tsc.controller.AppManager clearButtonListener
+INFO: ListView has been cleared
+Apr. 07, 2022 5:42:49 P.M. mru.tsc.controller.AppManager searchButtonListener
+INFO: Searched for Toy by name
+Apr. 07, 2022 5:43:06 P.M. mru.tsc.controller.AppManager searchButtonListener
+INFO: Searched for Toy by Serial Number
+Apr. 07, 2022 5:43:08 P.M. mru.tsc.controller.AppManager clearButtonListener
+INFO: ListView has been cleared
+Apr. 07, 2022 5:43:08 P.M. mru.tsc.controller.AppManager clearButtonListener
+INFO: ListView has been cleared
+Apr. 07, 2022 5:43:16 P.M. mru.tsc.controller.AppManager clearButtonListener
+INFO: ListView has been cleared
+Apr. 07, 2022 6:07:15 P.M. mru.tsc.controller.AppManager initialize
+INFO: Opened Home Page
+Apr. 07, 2022 6:11:20 P.M. mru.tsc.controller.AppManager initialize
+INFO: Opened Home Page
+Apr. 07, 2022 6:24:48 P.M. mru.tsc.controller.AppManager initialize
+INFO: Opened Home Page
+Apr. 07, 2022 6:24:59 P.M. mru.tsc.controller.AppManager searchButtonListener
+INFO: Searched for Toy by type
+Apr. 07, 2022 6:27:24 P.M. mru.tsc.controller.AppManager initialize
+INFO: Opened Home Page
+Apr. 07, 2022 6:27:28 P.M. mru.tsc.controller.AppManager searchButtonListener
+INFO: Searched for Toy by type
+Apr. 07, 2022 6:27:30 P.M. mru.tsc.controller.AppManager clearButtonListener
+INFO: ListView has been cleared
+Apr. 07, 2022 6:27:31 P.M. mru.tsc.controller.AppManager searchButtonListener
+INFO: Searched for Toy by type
+Apr. 07, 2022 6:27:36 P.M. mru.tsc.controller.AppManager clearButtonListener
+INFO: ListView has been cleared
+Apr. 07, 2022 6:27:41 P.M. mru.tsc.controller.AppManager searchButtonListener
+INFO: Searched for Toy by name
+Apr. 07, 2022 6:27:42 P.M. mru.tsc.controller.AppManager clearButtonListener
+INFO: ListView has been cleared
+Apr. 07, 2022 6:27:55 P.M. mru.tsc.controller.AppManager initialize
+INFO: Opened Home Page
+Apr. 07, 2022 6:28:01 P.M. mru.tsc.controller.AppManager searchButtonListener
+INFO: Searched for Toy by type
+Apr. 07, 2022 6:28:06 P.M. mru.tsc.controller.AppManager clearButtonListener
+INFO: ListView has been cleared
+Apr. 07, 2022 6:28:15 P.M. mru.tsc.controller.AppManager searchButtonListener
+INFO: Searched for Toy by name
+Apr. 07, 2022 6:28:19 P.M. mru.tsc.controller.AppManager clearButtonListener
+INFO: ListView has been cleared
+Apr. 07, 2022 6:48:39 P.M. mru.tsc.controller.AppManager initialize
+INFO: Opened Home Page
+Apr. 07, 2022 6:48:58 P.M. mru.tsc.controller.AppManager initialize
+INFO: Opened Home Page
+Apr. 07, 2022 6:49:01 P.M. mru.tsc.controller.AppManager initialize
+INFO: Opened Home Page
+Apr. 07, 2022 6:49:43 P.M. mru.tsc.controller.AppManager initialize
+INFO: Opened Home Page
+Apr. 07, 2022 6:49:48 P.M. mru.tsc.controller.AppManager initialize
+INFO: Opened Home Page
+Apr. 07, 2022 6:50:17 P.M. mru.tsc.controller.AppManager initialize
+INFO: Opened Home Page
+Apr. 07, 2022 6:50:24 P.M. mru.tsc.controller.AppManager initialize
+INFO: Opened Home Page
+Apr. 07, 2022 6:51:59 P.M. mru.tsc.controller.AppManager initialize
+INFO: Opened Home Page
+Apr. 07, 2022 6:52:12 P.M. mru.tsc.controller.AppManager initialize
+INFO: Opened Home Page
+Apr. 07, 2022 6:52:19 P.M. mru.tsc.controller.AppManager initialize
+INFO: Opened Home Page
+Apr. 07, 2022 6:53:54 P.M. mru.tsc.controller.AppManager initialize
+INFO: Opened Home Page
+Apr. 07, 2022 6:54:25 P.M. mru.tsc.controller.AppManager initialize
+INFO: Opened Home Page
+Apr. 07, 2022 6:54:56 P.M. mru.tsc.controller.AppManager initialize
+INFO: Opened Home Page
+Apr. 07, 2022 6:58:15 P.M. mru.tsc.controller.AppManager initialize
+INFO: Opened Home Page
+Apr. 07, 2022 6:58:17 P.M. mru.tsc.controller.RemoveManager <init>
+INFO: Opened Remove Toy Page
+Apr. 07, 2022 7:00:31 P.M. mru.tsc.controller.AppManager initialize
+INFO: Opened Home Page
+Apr. 07, 2022 7:00:33 P.M. mru.tsc.controller.RemoveManager <init>
+INFO: Opened Remove Toy Page
+Apr. 07, 2022 7:00:43 P.M. mru.tsc.controller.RemoveManager searchButtonListener
+INFO: Toy has been searched using Serial Number...
+Apr. 07, 2022 7:00:50 P.M. mru.tsc.controller.RemoveManager removeToyListener
+INFO: Ninja Turtles has been removed..
+Apr. 07, 2022 7:00:56 P.M. mru.tsc.controller.RemoveManager searchButtonListener
+INFO: Toy has been searched using Serial Number...
+Apr. 07, 2022 7:40:51 P.M. mru.tsc.controller.AppManager initialize
+INFO: Opened Home Page
+Apr. 07, 2022 7:41:27 P.M. mru.tsc.controller.AppManager initialize
+INFO: Opened Home Page
+Apr. 07, 2022 7:42:41 P.M. mru.tsc.controller.AppManager initialize
+INFO: Opened Home Page
+Apr. 07, 2022 7:43:58 P.M. mru.tsc.controller.AppManager initialize
+INFO: Opened Home Page
+Apr. 07, 2022 7:44:09 P.M. mru.tsc.controller.AppManager initialize
+INFO: Opened Home Page
+Apr. 07, 2022 7:45:41 P.M. mru.tsc.controller.RemoveManager <init>
+INFO: Opened Remove Toy Page
+Apr. 07, 2022 7:45:44 P.M. mru.tsc.controller.AppManager initialize
+INFO: Opened Home Page
+Apr. 07, 2022 7:46:01 P.M. mru.tsc.controller.RemoveManager <init>
+INFO: Opened Remove Toy Page
+Apr. 07, 2022 8:18:17 P.M. mru.tsc.controller.AppManager initialize
+INFO: Opened Home Page
+Apr. 07, 2022 8:18:21 P.M. mru.tsc.controller.AppManager searchButtonListener
+INFO: Searched for Toy by name
+Apr. 07, 2022 8:18:35 P.M. mru.tsc.controller.AppManager searchButtonListener
+INFO: Searched for Toy by type
+Apr. 07, 2022 8:18:41 P.M. mru.tsc.controller.AppManager clearButtonListener
+INFO: ListView has been cleared
+Apr. 07, 2022 8:18:51 P.M. mru.tsc.controller.AppManager searchButtonListener
+INFO: Searched for Toy by name
+Apr. 07, 2022 8:18:57 P.M. mru.tsc.controller.AppManager clearButtonListener
+INFO: ListView has been cleared
+Apr. 07, 2022 8:23:06 P.M. mru.tsc.controller.AppManager initialize
+INFO: Opened Home Page
+Apr. 07, 2022 8:23:55 P.M. mru.tsc.controller.AppManager initialize
+INFO: Opened Home Page
+Apr. 07, 2022 8:24:21 P.M. mru.tsc.controller.AppManager initialize
+INFO: Opened Home Page
+Apr. 07, 2022 8:24:55 P.M. mru.tsc.controller.AppManager initialize
+INFO: Opened Home Page
+Apr. 07, 2022 8:29:21 P.M. mru.tsc.controller.AppManager initialize
+INFO: Opened Home Page
+Apr. 07, 2022 8:30:41 P.M. mru.tsc.controller.AppManager initialize
+INFO: Opened Home Page
+Apr. 07, 2022 8:32:48 P.M. mru.tsc.controller.AppManager initialize
+INFO: Opened Home Page
+Apr. 07, 2022 8:34:37 P.M. mru.tsc.controller.AppManager initialize
+INFO: Opened Home Page
+Apr. 07, 2022 8:34:40 P.M. mru.tsc.controller.RemoveManager <init>
+INFO: Opened Remove Toy Page
+Apr. 07, 2022 8:34:46 P.M. mru.tsc.controller.AppManager initialize
+INFO: Opened Home Page
+Apr. 07, 2022 8:35:04 P.M. mru.tsc.controller.AppManager initialize
+INFO: Opened Home Page
+Apr. 07, 2022 8:35:08 P.M. mru.tsc.controller.RemoveManager <init>
+INFO: Opened Remove Toy Page
+Apr. 07, 2022 8:35:12 P.M. mru.tsc.controller.RemoveManager <init>
+INFO: Opened Remove Toy Page
+Apr. 07, 2022 8:35:15 P.M. mru.tsc.controller.RemoveManager <init>
+INFO: Opened Remove Toy Page
+Apr. 07, 2022 8:35:17 P.M. mru.tsc.controller.AppManager initialize
+INFO: Opened Home Page
+Apr. 07, 2022 8:35:18 P.M. mru.tsc.controller.RemoveManager <init>
+INFO: Opened Remove Toy Page
+Apr. 07, 2022 8:35:19 P.M. mru.tsc.controller.AppManager initialize
+INFO: Opened Home Page
+Apr. 07, 2022 8:35:21 P.M. mru.tsc.controller.RemoveManager <init>
+INFO: Opened Remove Toy Page
+Apr. 07, 2022 8:35:24 P.M. mru.tsc.controller.AppManager initialize
+INFO: Opened Home Page
+Apr. 07, 2022 8:35:27 P.M. mru.tsc.controller.RemoveManager <init>
+INFO: Opened Remove Toy Page
+Apr. 07, 2022 8:39:41 P.M. mru.tsc.controller.AppManager initialize
+INFO: Opened Home Page
+Apr. 07, 2022 8:46:55 P.M. mru.tsc.controller.AppManager initialize
+INFO: Opened Home Page
+Apr. 07, 2022 8:47:08 P.M. mru.tsc.controller.AppManager initialize
+INFO: Opened Home Page
+Apr. 07, 2022 8:47:25 P.M. mru.tsc.controller.AppManager initialize
+INFO: Opened Home Page
+Apr. 07, 2022 8:48:14 P.M. mru.tsc.controller.AppManager initialize
+INFO: Opened Home Page
+Apr. 07, 2022 8:51:38 P.M. mru.tsc.controller.AppManager initialize
+INFO: Opened Home Page
+Apr. 07, 2022 8:52:36 P.M. mru.tsc.controller.AppManager initialize
+INFO: Opened Home Page
+Apr. 07, 2022 8:52:42 P.M. mru.tsc.controller.AppManager searchButtonListener
+INFO: Searched for Toy by type
+Apr. 07, 2022 8:52:46 P.M. mru.tsc.controller.AppManager clearButtonListener
+INFO: ListView has been cleared
+Apr. 07, 2022 8:52:53 P.M. mru.tsc.controller.AppManager searchButtonListener
+INFO: Searched for Toy by name
+Apr. 07, 2022 8:52:54 P.M. mru.tsc.controller.AppManager clearButtonListener
+INFO: ListView has been cleared
+Apr. 07, 2022 8:52:57 P.M. mru.tsc.controller.RemoveManager <init>
+INFO: Opened Remove Toy Page
+Apr. 07, 2022 8:59:48 P.M. mru.tsc.controller.AppManager initialize
+INFO: Opened Home Page
+Apr. 07, 2022 8:59:51 P.M. mru.tsc.controller.AddManager initialize
+INFO: Opened Add Toy Page
+Apr. 07, 2022 9:00:19 P.M. mru.tsc.controller.AddManager saveButtonListener
+INFO: A Figure has been added: Jose
+Apr. 07, 2022 9:00:24 P.M. mru.tsc.controller.AddManager clearButtonListener
+INFO: TextFields have been cleared.
+Apr. 07, 2022 9:00:49 P.M. mru.tsc.controller.AppManager initialize
+INFO: Opened Home Page
+Apr. 07, 2022 9:00:51 P.M. mru.tsc.controller.RemoveManager <init>
+INFO: Opened Remove Toy Page
