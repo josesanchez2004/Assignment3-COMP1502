@@ -1,1 +1,0 @@
-packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"application"},{"l":"mru.test.driver"},{"l":"mru.tsc.controller"},{"l":"mru.tsc.exceptions"},{"l":"mru.tsc.model"}];updateSearchResults();
